@@ -20,7 +20,7 @@ connection.query("select now()", (err, rows) => {
   if (err) {
     console.log("connection not successful", err);
   } else {
-    "connection successful", rows;
+    console.log("connection successful", rows);
   }
 });
 
